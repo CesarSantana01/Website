@@ -1,0 +1,14 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 10vh;
+    font-size: 3vh;
+
+    color: rgb(191, 191, 191);
+}
+
+
+
+
