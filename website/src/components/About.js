@@ -18,7 +18,7 @@ function About() {
             <div className="part top">
               <img src="https://d1xm195wioio0k.cloudfront.net/images/mockup/macbook-top.svg" alt="" className="top"/>
               <img src="https://d1xm195wioio0k.cloudfront.net/images/mockup/macbook-cover.svg" alt="" className="cover"/>
-              <video autoPlay muted loop>
+              <video autoPlay muted loop  webkit-playsinline playsinline >
                 <source src="https://d1xm195wioio0k.cloudfront.net/images/video/support.mp4" type="video/mp4"/>
               </video>
             </div>

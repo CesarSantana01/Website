@@ -78,7 +78,7 @@ function TechStacks() {
                     animate={techStackAnimation1}
                     >
                         <img height={80} width={140} className='tech-stack-img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/540px-Npm-logo.svg.png" alt="" />
-                        <label>Node Package Manager</label>
+                        <label>NPM</label>
                     </motion.li>
 
                     <motion.li
