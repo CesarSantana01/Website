@@ -8,8 +8,8 @@ import About from './About'
 function RouteSwitch() {
   return (
     <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/' element={<About/>}/>
+      <Route path='/website' element={<Home/>}/>
+      <Route path='/website' element={<About/>}/>
       <Route path='/about' element={<About/>}/>
     </Routes>
   )
