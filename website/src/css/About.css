@@ -1,0 +1,217 @@
+.About{
+    color: rgb(191, 191, 191);  
+    width: 80vw;  
+    margin: auto;
+
+    display: flex;
+    gap: 4vw;
+    border-bottom: 1px solid rgb(93, 93, 93)
+}
+
+.About>*{
+    width: 100%;
+}
+
+.About-info{
+    width: 50%;
+    margin-bottom: 5vh;
+}
+
+.About-info>h1{
+    animation-name: fadein;
+    animation-duration: 1s;
+}
+
+@keyframes fadein {
+    from{
+        opacity: 0;
+        filter: blur(5px);
+        translate: 0px 20px;
+        transform: scale3d(-10);
+        
+    }
+
+    to{
+        
+        opacity: 1;
+        filter: blur(0);
+        translate: 0px 0px;
+        transform: scale3d(0);
+
+
+    }
+}
+
+
+
+.About-info>p{
+    font-size: 2.5vh;
+}
+
+.hover{
+    z-index: -1;
+    position: absolute;
+    transform: translate(15vw, 15vh);
+    animation-name: fadeinout;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes fadeinout {
+    0%{
+        opacity: 0;
+        text-shadow: 0px 0px 5px transparent;
+    }
+
+    50%{
+        opacity: 1;
+        text-shadow: 0px 0px 5px white;
+
+    }
+
+    100%{
+        opacity: 0;
+        text-shadow: 0px 0px 5px transparent;
+
+    }
+}
+  
+  .container3 {
+    text-align: center;
+    width: 50%;
+    margin: 5vh;
+    transition: ease 1s;
+}
+
+
+.container3:hover{
+    filter: drop-shadow(0px -5px 10px rgb(175, 175, 175));
+
+}
+  
+  .mockup {
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    font-size: 0;
+    perspective: 2400px;
+    perspective-origin: 50% 100%;
+    opacity: 0;
+    transition: 500ms opacity;
+  }
+  
+  .mockup.loaded {
+    opacity: 1;
+  }
+  
+  .mockup .part .top,
+  .mockup .part .bottom {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .mockup .part.top {
+    transform: translate3d(0, 0, 0) rotateX(-90deg);
+  }
+  
+  .mockup:hover .part.top {
+    transform: translate3d(0, 0, 0) rotateX(0deg);
+  }
+  
+  .mockup .part {
+    display: inline-block;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transform-origin: 50% 100%;
+    transition: 900ms;
+  }
+  
+  .mockup.opened .part .top {
+    transform: translate3d(0, 0, -11px) rotateX(90deg) scale(1, 1);
+  }
+  
+  .mockup .part .top {
+    transform-origin: 50% 0;
+    transform: translate3d(0, 0, -11px) rotateX(90deg);
+    transition: 900ms;
+  }
+  
+  .mockup img {
+    display: block;
+    max-width: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .mockup .part .cover {
+    position: relative;
+  }
+  
+  .mockup video {
+    display: block;
+    position: absolute;
+    top: 8%;
+    left: 4%;
+    width: 92%;
+    border-radius: 6px;
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 1px);
+  }
+  
+  .mockup .part.bottom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate3d(0, 0, 0) rotateX(-90deg);
+  }
+  
+  .mockup .part .bottom {
+      transform-origin: 50% 0;
+      transform: translate3d(0,0,0) rotateX(90deg);
+  }
+
+  .About-skills{
+    color: rgb(191, 191, 191);
+    width:100vw; 
+
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .About-skills-cont{
+    width: 90vw;
+  }
+  
+  .About-skills-cont>div{
+    display: flex;
+    
+  }
+  
+
+  @media (max-width: 900px) {
+    .container3{
+        display: none;
+    }
+    .About-info{
+        width: 100%;
+    }
+    
+}
+@media (min-width: 550px) {
+    .About-skills-cont{
+        display: flex;
+        justify-content: space-around;
+    }
+    .About-skills-cont>div{
+        gap: 15vw;
+      }
+
+    
+}
+
+
+
+ 

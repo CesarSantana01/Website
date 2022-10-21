@@ -1,15 +1,18 @@
 import React from 'react'
+import CSlogo from './img/CSlogo.jpeg'
+
 import {Link} from 'react-router-dom'
 require('../css/Nav.css')
 
 function Nav() {
+
   return (
     <nav>
         <Link
         style={{
             color: 'white'
         }}
-         to={'/'}>Logo</Link>
+         to={'/'}><img width={'60px'} height={'30px'} src={CSlogo} alt=''></img></Link>
 
 
         <div 
