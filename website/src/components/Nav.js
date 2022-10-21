@@ -12,7 +12,7 @@ function Nav() {
         style={{
             color: 'white'
         }}
-         to={'/'}><img width={'60px'} height={'30px'} src={CSlogo} alt=''></img></Link>
+         to={'/home'}><img width={'60px'} height={'30px'} src={CSlogo} alt=''></img></Link>
 
 
         <div 
@@ -21,7 +21,7 @@ function Nav() {
             gap: '2vh',
             color: 'white'
         }}>
-            <Link to={'/'}>Home</Link>
+            <Link to={'/home'}>Home</Link>
             <Link to={'/about'}>About</Link>
         </div>
     </nav>

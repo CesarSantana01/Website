@@ -1,7 +1,6 @@
 import {motion, useAnimation} from 'framer-motion'
 import React, {useEffect} from 'react'
 import {useInView} from 'react-intersection-observer'
-import _, { delay } from 'lodash'
 import expressIcon from '../img/expressIcon.svg'
 
 require('../../css/TechStacks.css')
