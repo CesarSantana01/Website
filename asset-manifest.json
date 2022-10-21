@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Website/static/css/main.f3300828.css",
-    "main.js": "/Website/static/js/main.49a4ad30.js",
-    "static/js/787.71e672d5.chunk.js": "/Website/static/js/787.71e672d5.chunk.js",
-    "static/media/carsite3.png": "/Website/static/media/carsite3.c75ccd6f9221d31ee844.png",
-    "static/media/carsite2.png": "/Website/static/media/carsite2.bd6b44379edc707c9237.png",
-    "static/media/carsite1.png": "/Website/static/media/carsite1.fcfae77dd43466b4783a.png",
-    "static/media/spotlight.jpg": "/Website/static/media/spotlight.9a450dca49bd93506034.jpg",
-    "static/media/CSlogo.jpeg": "/Website/static/media/CSlogo.aa6a714930e964022305.jpeg",
-    "static/media/expressIcon.svg": "/Website/static/media/expressIcon.7e85c5130978e3593e65a44112bc7390.svg",
-    "index.html": "/Website/index.html",
-    "main.f3300828.css.map": "/Website/static/css/main.f3300828.css.map",
-    "main.49a4ad30.js.map": "/Website/static/js/main.49a4ad30.js.map",
-    "787.71e672d5.chunk.js.map": "/Website/static/js/787.71e672d5.chunk.js.map"
+    "main.css": "/website/static/css/main.08f9bc24.css",
+    "main.js": "/website/static/js/main.bcde121e.js",
+    "static/js/787.71e672d5.chunk.js": "/website/static/js/787.71e672d5.chunk.js",
+    "static/media/carsite3.png": "/website/static/media/carsite3.c75ccd6f9221d31ee844.png",
+    "static/media/carsite2.png": "/website/static/media/carsite2.bd6b44379edc707c9237.png",
+    "static/media/carsite1.png": "/website/static/media/carsite1.fcfae77dd43466b4783a.png",
+    "static/media/spotlight.jpg": "/website/static/media/spotlight.9a450dca49bd93506034.jpg",
+    "static/media/CSlogo.jpeg": "/website/static/media/CSlogo.aa6a714930e964022305.jpeg",
+    "static/media/expressIcon.svg": "/website/static/media/expressIcon.7e85c5130978e3593e65a44112bc7390.svg",
+    "index.html": "/website/index.html",
+    "main.08f9bc24.css.map": "/website/static/css/main.08f9bc24.css.map",
+    "main.bcde121e.js.map": "/website/static/js/main.bcde121e.js.map",
+    "787.71e672d5.chunk.js.map": "/website/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3300828.css",
-    "static/js/main.49a4ad30.js"
+    "static/css/main.08f9bc24.css",
+    "static/js/main.bcde121e.js"
   ]
 }
