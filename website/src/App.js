@@ -1,15 +1,15 @@
 import './App.css';
 import Nav from './components/Nav';
-import {HashRouter} from "react-router-dom"
+import {BrowserRouter} from "react-router-dom"
 import RouteSwitch from './components/RouteSwitch';
 
 function App() {
   return (
 
-  <HashRouter>
+  <BrowserRouter basename='process.env.PUBLIC_URL'>
     <Nav/>
     <RouteSwitch/>
-  </HashRouter>
+  </BrowserRouter>
 
   );
 }
