@@ -43,7 +43,7 @@ function Projects() {
                 alignItems: 'center'
                 
             }}>
-                <button className='btn-98'>View Live Preview ↗</button>
+                <a href="https://cesarsantana01.github.io/carshop/#/" target={'_blank'} rel="noopener noreferrer"  className='btn-98'>View Live Preview ↗</a>
             </div>
           </article>
         </container>
