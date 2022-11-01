@@ -8,18 +8,14 @@ function Nav() {
 
   return (
     <nav>
-        <Link
-        style={{
-            color: 'white'
-        }}
-         to={'/'}><img width={'60px'} height={'30px'} src={CSlogo} alt=''></img></Link>
-
-
+        <Link style={{color: 'white'}}to={'/'}>
+          <img width={'60px'} height={'30px'} src={CSlogo} alt=''></img>
+        </Link>
         <div 
         style={{
-            display: 'flex',
-            gap: '2vh',
-            color: 'white'
+          display: 'flex',
+          gap: '2vh',
+          color: 'white'
         }}>
             <Link to={'/'}>Home</Link>
             <Link to={'/about'}>About</Link>

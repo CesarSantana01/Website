@@ -13,9 +13,9 @@ require('../../css/Projects.css')
 function Projects() {
 
     const Slides = [
-        { url: `${car1}`, title: "boat" },
-        { url: `${car2}`, title: "forest" },
-        { url: `${car3}`, title: "city" },
+        { url: `${car1}`, title: "home" },
+        { url: `${car2}`, title: "catalog" },
+        { url: `${car3}`, title: "item" },
       ];
 
       
